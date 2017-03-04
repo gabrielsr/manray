@@ -16,7 +16,7 @@ This is a simple way to sidestep that restriction by having Manray do the render
 
     var canvasData = {canvases:[{...}]}; // canvas data from fabric.Canvas.prototype.toDatalessJSON()
 
-    var pool = new Manray.pool(5);       // Pool with 5 workers
+    var pool = new Manray.Pool(5);       // Pool with 5 workers
 
     var stream = pool.render(canvasData, 
         {  
